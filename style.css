@@ -1,0 +1,132 @@
+
+.cursor-dot {
+  width: 14px;
+  height: 14px;
+  background: radial-gradient(circle, #f3ac91, #f3ac91);
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: transform 0.08s ease-out;
+  box-shadow: 0 0 12px rgba(255, 30, 0, 0.8);
+} 
+
+
+*{
+    cursor: none;
+}
+
+
+.webistral-nav {
+  background: linear-gradient(135deg, #111829, #0f172a);
+  padding: 0.9rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  font-weight: 500;
+  margin: 0 0.75rem;
+  transition: color 0.3s ease;
+  color: rgba(255,255,255,0.8);
+}
+
+.nav-link:hover {
+  color: #f3ac91;
+}
+
+
+.btn-accent {
+  background-color: #f11101;
+  color: #white;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-accent:hover {
+  background-color: #f3ac91;
+  color: #0b0f1a;
+}
+
+.dropdown-menu {
+  border-radius: 8px;
+}
+
+
+body {
+    padding-top: 80px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-header {
+    background: #0f172a;
+    color: white;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #111829;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+
+
+.hero-section {
+    background: linear-gradient(rgba(17, 24, 41, 0.85), rgba(17, 24, 41, 0.7)), url('https://codehs.com/uploads/0f5666fbb29f300745ef74949a89c7c3');
+    background-size: cover;
+    background-position: center;
+    height: 85vh; 
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: #f11101; 
+    margin-bottom: 1rem;
+}
+
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.section-title {
+    margin-bottom: 3rem;
+    font-weight: 700;
+    color: #111829;
+}
